@@ -109,15 +109,14 @@ main{
         height: auto;
         /* border: 2px solid red; */
     }
-.ready_to_build{
+.ready{
     position: absolute;
-    /* border: 2px solid red; */
-    width: 50%;
+    border: 2px solid red;
     background-color: white;
    padding: 20px;
    border-radius: 10px;
-
-}
+ }
+ 
 footer{
     background-color: #00252e;
     color: white;
