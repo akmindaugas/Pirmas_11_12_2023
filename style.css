@@ -53,6 +53,7 @@ main{
         margin: 50px;
         width: 200px;
         height: auto;
+      transform:scaleY(0.8);
     }
     .top_content{
         display: inline-flex;
@@ -70,6 +71,7 @@ main{
     .build_community{
         text-align: left;
         width: 50%;
+        padding-right:40px ;
         /* border: 2px solid green; */
     }
     .get_started{
@@ -101,7 +103,10 @@ main{
   border-radius: 5px;
         width: 95%;
         margin-bottom: 30px;
-       box-shadow: 5px 10px 10px rgb(199, 196, 196);
+       box-shadow: 5px 5px 5px 5px rgb(225, 223, 223);
+    }
+    .your_users{
+        margin-bottom: 200px;
     }
  
     .text_wrapper{
@@ -123,6 +128,7 @@ main{
    top: 90%;
 left: 25%;
    margin: auto;
+   box-shadow: 0px 0px 2px 2px rgb(241, 238, 238) ;
  }
 
 footer{
