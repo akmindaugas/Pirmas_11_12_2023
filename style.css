@@ -182,6 +182,16 @@ h4{
 .footer_link:hover{
     text-decoration: underline;
     }
+    .media_icons:hover{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+    .try_it:hover, .get_started:hover{
+        transform: scaleX(0.8);
+        transition: 0.5s;
+        box-shadow: 5px 5px 5px;
+        opacity: 0.5;
+    } 
 
 
 @media screen  and (max-width: 375px){
