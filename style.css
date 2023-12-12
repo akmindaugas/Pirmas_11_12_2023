@@ -41,6 +41,7 @@ main{
         border-radius: 20px;
         background-color: white;
         box-shadow: 10px 10px 10px;
+        cursor: pointer;
     }
     #try{
          color: black;
@@ -77,7 +78,7 @@ main{
         line-height: 3em;
         border-radius: 20px;
         border: none;
-  
+  cursor: pointer;
     }
     a{
         text-decoration: none;
@@ -96,8 +97,8 @@ main{
         padding: 15px;
         flex-direction: row;
         justify-content:center ;
-  align-items: center;
-  border-radius: 5px;
+        align-items: center;
+        border-radius: 5px;
         width: 95%;
         margin-bottom: 30px;
        box-shadow: 5px 5px 5px 5px rgb(225, 223, 223);
@@ -124,10 +125,13 @@ main{
    padding: 30px;
    border-radius: 10px;
    top: 90%;
-left: 25%;
+    left: 25%;
    margin: auto;
    box-shadow: 0px 0px 2px 2px rgb(241, 238, 238) ;
- }
+   display:flex ;
+   flex-direction: column;
+   align-items: center;
+}
 
 footer{
     background-color: #00252e;
@@ -191,7 +195,7 @@ h4{
         height: auto;
     }
     .middle{
-        position: relative;
+        position:relative;
     }
     .build_community{
         text-align: center;
@@ -213,16 +217,15 @@ h4{
         margin-bottom: 250px;
     }
     .ready{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         /* position: absolute; */
-        width: 95%;
+        width: 100%;
         /* border: 2px solid red; */
         background-color: white;
        padding: 0px;
-       border-radius: 10px;
-       /* top: 50%;
-        left: 15%; */
-       margin: auto;
-       box-shadow: 0px 0px 2px 2px rgb(241, 238, 238) ;
+      
      }
      footer{
         flex-wrap: nowrap;
@@ -230,6 +233,7 @@ h4{
     }
     .first_column, .second_column, .third_column, .fourth_column{
         width: 100%;
+        padding: 5px;margin: 5px;
     }
      .footer_img{
         width:100px;
@@ -244,7 +248,7 @@ h4{
      }
      .media_icons{
         width: 20px;
-        margin-bottom: 20px;
+        margin: 20px auto;
     }
     header{
         flex-direction:column; 
