@@ -230,6 +230,7 @@ h4{
      footer{
         flex-wrap: nowrap;
     padding: 10px ;
+    padding-top: 100px;
     }
     .first_column, .second_column, .third_column, .fourth_column{
         width: 100%;
