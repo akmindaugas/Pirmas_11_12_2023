@@ -179,6 +179,9 @@ h4{
     font-size: x-small;
     margin-bottom: 0px;
 }
+.footer_link:hover{
+    text-decoration: underline;
+    }
 
 
 @media screen  and (max-width: 375px){
@@ -258,4 +261,5 @@ h4{
         margin-bottom: 10px;
         width: 100px;
         }
+    
 }
